@@ -36,10 +36,10 @@ public class MainActivity2 extends AppCompatActivity {
 
 //
 
-//                (ArrayList<String>) getIntent().getSerializableExtra("harga");
+//               (ArrayList<String>) getIntent().getSerializableExtra("harga");
 //        List<String> item = (ArrayList<String>) getIntent().getSerializableExtra("item");
 
-//        Toast.makeText(getApplicationContext(), "harga : " + harga + " item" + item, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getApplicationContext(), "item : " + sitem + " harga" + sharga, Toast.LENGTH_SHORT).show();
 
 
     }
