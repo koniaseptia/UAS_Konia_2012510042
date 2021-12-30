@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UAS_Konia_2012510042</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array
+        name="android_dropdown_arrays">
+        <item>Pilih</item>
+        <item>Apel</item>
+        <item>Jeruk</item>
+        <item>Pisang</item>
+        <item>Semangka</item>
+        <item>Melon</item>
+        <item>Rambutan</item>
+        <item>Anggur</item>
+    </string-array>
+</resources>
