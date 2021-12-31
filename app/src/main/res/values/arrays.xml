@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>Palais Garnie</item>
+        <item>Piazza del Duomo</item>
+        <item>Manhattan</item>
+        <item>Senso-ji</item>
+        <item>Sultan Ahmed Mosque</item>
+        <item>Table Mountain</item>
+    </string-array>
+    <string-array name="harga">
+        <item>10000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>skkk</item>
+        <item>asdasy</item>
+        <item>aad</item>
+    </string-array>
+
+</resources>
