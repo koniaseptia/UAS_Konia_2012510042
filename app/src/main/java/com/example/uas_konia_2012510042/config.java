@@ -16,28 +16,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class config extends ArrayAdapter<itemmodel> {
+public class config {
+//        extends ArrayAdapter<itemmodel> {
 
-    public config(@NonNull Context context, ArrayList<itemmodel> itemmodels) {
-        super(context, 0, itemmodels);
-    }
-
-    @NonNull
-    @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-         itemmodel item = getItem(position);
-
-        if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_main2, parent, false);
-        }
-
-        TextView tvitem = (TextView) convertView.findViewById(R.id.tvitem);
-        TextView tvharga = (TextView) convertView.findViewById(R.id.tvharga);
-
-        tvharga.setText(item.harga);
-        tvitem.setText(item.item);
-
-        return convertView;
-    }
+//    public config(@NonNull Context context, ArrayList<itemmodel> itemmodels) {
+//        super(context, 0, itemmodels);
+//    }
+//
+//    @NonNull
+//    @Override
+//    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+//         itemmodel item = getItem(position);
+//
+//        if (convertView == null) {
+//            convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_main2, parent, false);
+//        }
+//
+//        TextView tvitem = (TextView) convertView.findViewById(R.id.tvitem);
+//        TextView tvharga = (TextView) convertView.findViewById(R.id.tvharga);
+//
+//        tvharga.setText(item.harga);
+//        tvitem.setText(item.item);
+//
+//        return convertView;
+//    }
 }
 
